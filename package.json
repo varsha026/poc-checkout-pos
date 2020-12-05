@@ -1,0 +1,19 @@
+{
+  "name": "poc-checkout-pos",
+  "version": "1.0.0",
+  "description": "Customer Checkout system POC",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon",
+    "start": "ts-node ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.14.10",
+    "nodemon": "^2.0.6",
+    "ts-node": "^9.1.0",
+    "typescript": "^4.1.2"
+  }
+}
